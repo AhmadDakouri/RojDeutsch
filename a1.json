@@ -1,0 +1,2410 @@
+[
+  {
+    "german": "Abend",
+    "translation": "مساء"
+  },
+  {
+    "german": "alles",
+    "translation": "كل شيء"
+  },
+  {
+    "german": "antworten",
+    "translation": "يجيب"
+  },
+  {
+    "german": "auch",
+    "translation": "أيضًا"
+  },
+  {
+    "german": "auf",
+    "translation": "على"
+  },
+  {
+    "german": "aus",
+    "translation": "من"
+  },
+  {
+    "german": "Aussage",
+    "translation": "قول"
+  },
+  {
+    "german": "bisschen",
+    "translation": "قليلاً"
+  },
+  {
+    "german": "bitte",
+    "translation": "رجاء"
+  },
+  {
+    "german": "danke",
+    "translation": "شكراً"
+  },
+  {
+    "german": "dann",
+    "translation": "عندئذ"
+  },
+  {
+    "german": "das",
+    "translation": "هذا"
+  },
+  {
+    "german": "der",
+    "translation": "هذا"
+  },
+  {
+    "german": "Deutsch",
+    "translation": "الألمانية"
+  },
+  {
+    "german": "Dialog",
+    "translation": "حوار"
+  },
+  {
+    "german": "die",
+    "translation": "هذه"
+  },
+  {
+    "german": "dir",
+    "translation": "لك"
+  },
+  {
+    "german": "du",
+    "translation": "أنت"
+  },
+  {
+    "german": "ein",
+    "translation": "واحد / أ"
+  },
+  {
+    "german": "eine",
+    "translation": "واحدة / إحدى"
+  },
+  {
+    "german": "Entschuldigung",
+    "translation": "عذرًا"
+  },
+  {
+    "german": "er",
+    "translation": "هو"
+  },
+  {
+    "german": "es",
+    "translation": "هو (للمحايد)"
+  },
+  {
+    "german": "Form",
+    "translation": "نموذج"
+  },
+  {
+    "german": "Frage",
+    "translation": "سؤال"
+  },
+  {
+    "german": "fragen",
+    "translation": "يسأل"
+  },
+  {
+    "german": "Frau",
+    "translation": "امرأة / سيدة"
+  },
+  {
+    "german": "ganz",
+    "translation": "كثير / تمامًا"
+  },
+  {
+    "german": "gehen",
+    "translation": "يذهب"
+  },
+  {
+    "german": "Grammatik",
+    "translation": "قواعد"
+  },
+  {
+    "german": "gut",
+    "translation": "جيد"
+  },
+  {
+    "german": "hallo",
+    "translation": "مرحبًا"
+  },
+  {
+    "german": "heißen",
+    "translation": "يدعى / يُسَمَّى"
+  },
+  {
+    "german": "Herr",
+    "translation": "سيد / رجل"
+  },
+  {
+    "german": "hören",
+    "translation": "يسمع"
+  },
+  {
+    "german": "ich",
+    "translation": "أنا"
+  },
+  {
+    "german": "Ihnen",
+    "translation": "لك (صيغة الاحترام)"
+  },
+  {
+    "german": "ihr",
+    "translation": "أنتم"
+  },
+  {
+    "german": "im",
+    "translation": "في الـ"
+  },
+  {
+    "german": "ja",
+    "translation": "نعم"
+  },
+  {
+    "german": "kommen",
+    "translation": "يأتي"
+  },
+  {
+    "german": "Kurs",
+    "translation": "دورة"
+  },
+  {
+    "german": "Kursteilnehmer",
+    "translation": "مشارك (ذكر)"
+  },
+  {
+    "german": "Kursteilnehmerin",
+    "translation": "مشاركة (أنثى)"
+  },
+  {
+    "german": "Land",
+    "translation": "بلد"
+  },
+  {
+    "german": "lesen",
+    "translation": "يقرأ"
+  },
+  {
+    "german": "Mann",
+    "translation": "رجل"
+  },
+  {
+    "german": "mein",
+    "translation": "لي / خاصتي"
+  },
+  {
+    "german": "meine",
+    "translation": "لي / خاصتي"
+  },
+  {
+    "german": "mit",
+    "translation": "مع"
+  },
+  {
+    "german": "morgen",
+    "translation": "غدًا"
+  },
+  {
+    "german": "Nacht",
+    "translation": "ليلة"
+  },
+  {
+    "german": "Name",
+    "translation": "اسم"
+  },
+  {
+    "german": "nein",
+    "translation": "لا"
+  },
+  {
+    "german": "neu",
+    "translation": "جديد"
+  },
+  {
+    "german": "nicht",
+    "translation": "ليس"
+  },
+  {
+    "german": "oder",
+    "translation": "أو"
+  },
+  {
+    "german": "Person",
+    "translation": "شخص"
+  },
+  {
+    "german": "richtig",
+    "translation": "صحيح"
+  },
+  {
+    "german": "Satz",
+    "translation": "جملة"
+  },
+  {
+    "german": "schreiben",
+    "translation": "يكتب"
+  },
+  {
+    "german": "sehr",
+    "translation": "جدًا"
+  },
+  {
+    "german": "sein",
+    "translation": "يكون"
+  },
+  {
+    "german": "sie",
+    "translation": "هي"
+  },
+  {
+    "german": "Sie",
+    "translation": "أنت (صيغة الاحترام)"
+  },
+  {
+    "german": "so",
+    "translation": "هكذا / جدًا"
+  },
+  {
+    "german": "Sprache",
+    "translation": "لغة"
+  },
+  {
+    "german": "sprechen",
+    "translation": "يتحدث"
+  },
+  {
+    "german": "supergut",
+    "translation": "ممتاز / جيد جدًا"
+  },
+  {
+    "german": "Tag",
+    "translation": "يوم"
+  },
+  {
+    "german": "Tschüss",
+    "translation": "مع السلامة"
+  },
+  {
+    "german": "und",
+    "translation": "و"
+  },
+  {
+    "german": "was",
+    "translation": "ماذا"
+  },
+  {
+    "german": "welche",
+    "translation": "أي"
+  },
+  {
+    "german": "wer",
+    "translation": "من"
+  },
+  {
+    "german": "Wiedersehen",
+    "translation": "لقاء"
+  },
+  {
+    "german": "wie",
+    "translation": "كيف"
+  },
+  {
+    "german": "wissen",
+    "translation": "يعرف"
+  },
+  {
+    "german": "wo",
+    "translation": "أين"
+  },
+  {
+    "german": "woher",
+    "translation": "من أين"
+  },
+  {
+    "german": "Wort",
+    "translation": "كلمة"
+  },
+  {
+    "german": "aber",
+    "translation": "لكن"
+  },
+  {
+    "german": "Adresse",
+    "translation": "عنوان"
+  },
+  {
+    "german": "alt",
+    "translation": "قديم"
+  },
+  {
+    "german": "anmelden",
+    "translation": "يسجل"
+  },
+  {
+    "german": "Anmeldung",
+    "translation": "تسجيل"
+  },
+  {
+    "german": "arbeiten",
+    "translation": "يعمل"
+  },
+  {
+    "german": "Bild",
+    "translation": "صورة"
+  },
+  {
+    "german": "Bruder",
+    "translation": "أخ"
+  },
+  {
+    "german": "buchstabieren",
+    "translation": "يهجي"
+  },
+  {
+    "german": "dein",
+    "translation": "لك"
+  },
+  {
+    "german": "deine",
+    "translation": "لك"
+  },
+  {
+    "german": "einmal",
+    "translation": "مرة واحدة"
+  },
+  {
+    "german": "Eltern",
+    "translation": "الوالدان"
+  },
+  {
+    "german": "falsch",
+    "translation": "خطأ"
+  },
+  {
+    "german": "Familie",
+    "translation": "عائلة"
+  },
+  {
+    "german": "Familienname",
+    "translation": "اسم العائلة"
+  },
+  {
+    "german": "Familienstand",
+    "translation": "الحالة الاجتماعية"
+  },
+  {
+    "german": "Formular",
+    "translation": "استمارة"
+  },
+  {
+    "german": "geschieden",
+    "translation": "مطلق"
+  },
+  {
+    "german": "Geschwister",
+    "translation": "إخوة"
+  },
+  {
+    "german": "haben",
+    "translation": "يملك / لديه"
+  },
+  {
+    "german": "Handynummer",
+    "translation": "رقم الهاتف المحمول"
+  },
+  {
+    "german": "Hausnummer",
+    "translation": "رقم المنزل"
+  },
+  {
+    "german": "Heimatland",
+    "translation": "الوطن"
+  },
+  {
+    "german": "hier",
+    "translation": "هنا"
+  },
+  {
+    "german": "ihr",
+    "translation": "لها / خاصتها"
+  },
+  {
+    "german": "ihre",
+    "translation": "لها / خاصتها"
+  },
+  {
+    "german": "in",
+    "translation": "في"
+  },
+  {
+    "german": "Information",
+    "translation": "معلومة"
+  },
+  {
+    "german": "Jahr",
+    "translation": "سنة"
+  },
+  {
+    "german": "jetzt",
+    "translation": "الآن"
+  },
+  {
+    "german": "kein",
+    "translation": "ليس / لا يوجد"
+  },
+  {
+    "german": "keine",
+    "translation": "ليس / لا يوجد"
+  },
+  {
+    "german": "Kind",
+    "translation": "طفل"
+  },
+  {
+    "german": "Kindergarten",
+    "translation": "روضة أطفال"
+  },
+  {
+    "german": "Kontakt",
+    "translation": "اتصال"
+  },
+  {
+    "german": "leben",
+    "translation": "يعيش"
+  },
+  {
+    "german": "ledig",
+    "translation": "أعزب"
+  },
+  {
+    "german": "E-Mail",
+    "translation": "بريد إلكتروني"
+  },
+  {
+    "german": "möchten",
+    "translation": "يرغب"
+  },
+  {
+    "german": "Mutter",
+    "translation": "أم"
+  },
+  {
+    "german": "nach",
+    "translation": "إلى"
+  },
+  {
+    "german": "Nachname",
+    "translation": "اسم العائلة"
+  },
+  {
+    "german": "noch",
+    "translation": "لا يزال"
+  },
+  {
+    "german": "Postleitzahl",
+    "translation": "الرمز البريدي"
+  },
+  {
+    "german": "Schwester",
+    "translation": "أخت"
+  },
+  {
+    "german": "Schwägerin",
+    "translation": "أخت الزوج/الزوجة"
+  },
+  {
+    "german": "Schwieger",
+    "translation": "شقيق الزوج"
+  },
+  {
+    "german": "Schwiegertochter",
+    "translation": "كنة / زوجة الابن"
+  },
+  {
+    "german": "Schwiegervater",
+    "translation": "حمى"
+  },
+  {
+    "german": "Sohn",
+    "translation": "ابن"
+  },
+  {
+    "german": "Straße",
+    "translation": "شارع"
+  },
+  {
+    "german": "Telefonnummer",
+    "translation": "رقم الهاتف"
+  },
+  {
+    "german": "Tochter",
+    "translation": "ابنة"
+  },
+  {
+    "german": "Vater",
+    "translation": "أب"
+  },
+  {
+    "german": "vergleichen",
+    "translation": "يقارن"
+  },
+  {
+    "german": "verheiratet",
+    "translation": "متزوج"
+  },
+  {
+    "german": "verwitwet",
+    "translation": "أرمل"
+  },
+  {
+    "german": "viel",
+    "translation": "كثير"
+  },
+  {
+    "german": "viele",
+    "translation": "كثيرون"
+  },
+  {
+    "german": "Vorname",
+    "translation": "الاسم الأول"
+  },
+  {
+    "german": "vorstellen",
+    "translation": "يعرف / يقدم"
+  },
+  {
+    "german": "welcher",
+    "translation": "أي"
+  },
+  {
+    "german": "welche",
+    "translation": "أي"
+  },
+  {
+    "german": "welches",
+    "translation": "أي"
+  },
+  {
+    "german": "willkommen",
+    "translation": "مرحبًا"
+  },
+  {
+    "german": "wir",
+    "translation": "نحن"
+  },
+  {
+    "german": "wohnen",
+    "translation": "يسكن"
+  },
+  {
+    "german": "Wohnort",
+    "translation": "مكان الإقامة"
+  },
+  {
+    "german": "Zahl",
+    "translation": "رقم"
+  },
+  {
+    "german": "zu",
+    "translation": "إلى"
+  },
+  {
+    "german": "also",
+    "translation": "إذن / لذلك"
+  },
+  {
+    "german": "an",
+    "translation": "إلى / عند"
+  },
+  {
+    "german": "andere",
+    "translation": "آخر"
+  },
+  {
+    "german": "benutzen",
+    "translation": "يستخدم"
+  },
+  {
+    "german": "Blatt",
+    "translation": "ورقة"
+  },
+  {
+    "german": "Bleistift",
+    "translation": "قلم رصاص"
+  },
+  {
+    "german": "Buch",
+    "translation": "كتاب"
+  },
+  {
+    "german": "da",
+    "translation": "هناك"
+  },
+  {
+    "german": "Deutschkurs",
+    "translation": "دورة اللغة الألمانية"
+  },
+  {
+    "german": "Dienstag",
+    "translation": "الثلاثاء"
+  },
+  {
+    "german": "doch",
+    "translation": "بالعكس / مع ذلك"
+  },
+  {
+    "german": "Donnerstag",
+    "translation": "الخميس"
+  },
+  {
+    "german": "endlich",
+    "translation": "أخيرًا"
+  },
+  {
+    "german": "erklären",
+    "translation": "يشرح"
+  },
+  {
+    "german": "erzählen",
+    "translation": "يخبر"
+  },
+  {
+    "german": "Familienfoto",
+    "translation": "صورة عائلية"
+  },
+  {
+    "german": "Feiertag",
+    "translation": "يوم عطلة"
+  },
+  {
+    "german": "Fenster",
+    "translation": "نافذة"
+  },
+  {
+    "german": "Foto",
+    "translation": "صورة"
+  },
+  {
+    "german": "fragen",
+    "translation": "يسأل"
+  },
+  {
+    "german": "Freitag",
+    "translation": "الجمعة"
+  },
+  {
+    "german": "Freund",
+    "translation": "صديق"
+  },
+  {
+    "german": "für",
+    "translation": "من أجل"
+  },
+  {
+    "german": "genau",
+    "translation": "بالضبط"
+  },
+  {
+    "german": "gestern",
+    "translation": "أمس"
+  },
+  {
+    "german": "groß",
+    "translation": "كبير"
+  },
+  {
+    "german": "Gruß",
+    "translation": "تحية"
+  },
+  {
+    "german": "Hausaufgabe",
+    "translation": "واجب منزلي"
+  },
+  {
+    "german": "Heft",
+    "translation": "دفتر"
+  },
+  {
+    "german": "heute",
+    "translation": "اليوم"
+  },
+  {
+    "german": "ihr",
+    "translation": "أنتم"
+  },
+  {
+    "german": "immer",
+    "translation": "دائمًا"
+  },
+  {
+    "german": "Karte",
+    "translation": "بطاقة / خريطة"
+  },
+  {
+    "german": "klein",
+    "translation": "صغير"
+  },
+  {
+    "german": "knifflig",
+    "translation": "صعب / معقد"
+  },
+  {
+    "german": "Kugelschreiber",
+    "translation": "قلم حبر"
+  },
+  {
+    "german": "Kuli",
+    "translation": "قلم حبر (اختصار)"
+  },
+  {
+    "german": "Kursbuch",
+    "translation": "كتاب الدورة"
+  },
+  {
+    "german": "Kursraum",
+    "translation": "قاعة الدرس"
+  },
+  {
+    "german": "Lampe",
+    "translation": "مصباح"
+  },
+  {
+    "german": "Landkarte",
+    "translation": "خريطة"
+  },
+  {
+    "german": "langsam",
+    "translation": "ببطء"
+  },
+  {
+    "german": "Lehrer",
+    "translation": "معلم (ذكر)"
+  },
+  {
+    "german": "Lehrerin",
+    "translation": "معلمة (أنثى)"
+  },
+  {
+    "german": "lernen",
+    "translation": "يتعلم"
+  },
+  {
+    "german": "lesen",
+    "translation": "يقرأ"
+  },
+  {
+    "german": "liebe",
+    "translation": "عزيزتي"
+  },
+  {
+    "german": "lieber",
+    "translation": "عزيزي"
+  },
+  {
+    "german": "Liste",
+    "translation": "قائمة"
+  },
+  {
+    "german": "machen",
+    "translation": "يفعل / يصنع"
+  },
+  {
+    "german": "mir",
+    "translation": "لي"
+  },
+  {
+    "german": "Mittwoch",
+    "translation": "الأربعاء"
+  },
+  {
+    "german": "Montag",
+    "translation": "الاثنين"
+  },
+  {
+    "german": "natürlich",
+    "translation": "بالطبع"
+  },
+  {
+    "german": "nett",
+    "translation": "لطيف"
+  },
+  {
+    "german": "Papier",
+    "translation": "ورق"
+  },
+  {
+    "german": "Papierkorb",
+    "translation": "سلة المهملات"
+  },
+  {
+    "german": "Pause",
+    "translation": "استراحة"
+  },
+  {
+    "german": "Problem",
+    "translation": "مشكلة"
+  },
+  {
+    "german": "Projektor",
+    "translation": "جهاز عرض"
+  },
+  {
+    "german": "Radiergummi",
+    "translation": "ممحاة"
+  },
+  {
+    "german": "Raum",
+    "translation": "غرفة"
+  },
+  {
+    "german": "Rucksack",
+    "translation": "حقيبة ظهر"
+  },
+  {
+    "german": "Sache",
+    "translation": "شيء"
+  },
+  {
+    "german": "sagen",
+    "translation": "يقول"
+  },
+  {
+    "german": "Samstag",
+    "translation": "السبت"
+  },
+  {
+    "german": "sehen",
+    "translation": "يرى"
+  },
+  {
+    "german": "Seite",
+    "translation": "صفحة"
+  },
+  {
+    "german": "Schlüssel",
+    "translation": "مفتاح"
+  },
+  {
+    "german": "schnell",
+    "translation": "بسرعة"
+  },
+  {
+    "german": "Sonntag",
+    "translation": "الأحد"
+  },
+  {
+    "german": "Spaß",
+    "translation": "مرح"
+  },
+  {
+    "german": "spielen",
+    "translation": "يلعب"
+  },
+  {
+    "german": "Spitzer",
+    "translation": "مبراة"
+  },
+  {
+    "german": "Stuhl",
+    "translation": "كرسي"
+  },
+  {
+    "german": "Tabelle",
+    "translation": "جدول"
+  },
+  {
+    "german": "Tafel",
+    "translation": "سبورة"
+  },
+  {
+    "german": "Tasche",
+    "translation": "حقيبة"
+  },
+  {
+    "german": "Tisch",
+    "translation": "طاولة"
+  },
+  {
+    "german": "Tür",
+    "translation": "باب"
+  },
+  {
+    "german": "übermorgen",
+    "translation": "بعد الغد"
+  },
+  {
+    "german": "Übung",
+    "translation": "تمرين"
+  },
+  {
+    "german": "Übungsbuch",
+    "translation": "كتاب التمارين"
+  },
+  {
+    "german": "verstehen",
+    "translation": "يفهم"
+  },
+  {
+    "german": "vorgestern",
+    "translation": "أول أمس"
+  },
+  {
+    "german": "Wand",
+    "translation": "حائط"
+  },
+  {
+    "german": "Woche",
+    "translation": "أسبوع"
+  },
+  {
+    "german": "Wochenende",
+    "translation": "عطلة نهاية الأسبوع"
+  },
+  {
+    "german": "Wörterbuch",
+    "translation": "قاموس"
+  },
+  {
+    "german": "zeigen",
+    "translation": "يظهر"
+  },
+  {
+    "german": "Zettel",
+    "translation": "ورقة / ملاحظة"
+  },
+  {
+    "german": "zusammen",
+    "translation": "معًا"
+  },
+  {
+    "german": "Angebot",
+    "translation": "عرض"
+  },
+  {
+    "german": "Antwort",
+    "translation": "إجابة"
+  },
+  {
+    "german": "Apfel",
+    "translation": "تفاحة"
+  },
+  {
+    "german": "Apfelsaft",
+    "translation": "عصير تفاح"
+  },
+  {
+    "german": "Aufgabe",
+    "translation": "مهمة / واجب"
+  },
+  {
+    "german": "Babynahrung",
+    "translation": "طعام الأطفال"
+  },
+  {
+    "german": "Banane",
+    "translation": "موزة"
+  },
+  {
+    "german": "Becher",
+    "translation": "كوب"
+  },
+  {
+    "german": "Beispiel",
+    "translation": "مثال"
+  },
+  {
+    "german": "Bier",
+    "translation": "بيرة"
+  },
+  {
+    "german": "Birne",
+    "translation": "كمثرى"
+  },
+  {
+    "german": "Bistro",
+    "translation": "مقهى صغير"
+  },
+  {
+    "german": "Blaubeere",
+    "translation": "توت أزرق"
+  },
+  {
+    "german": "Bohne",
+    "translation": "فاصوليا"
+  },
+  {
+    "german": "brauchen",
+    "translation": "يحتاج"
+  },
+  {
+    "german": "Brot",
+    "translation": "خبز"
+  },
+  {
+    "german": "Brötchen",
+    "translation": "خبز صغير"
+  },
+  {
+    "german": "Cent",
+    "translation": "سنت (عملة)"
+  },
+  {
+    "german": "Cola",
+    "translation": "كولا"
+  },
+  {
+    "german": "Couscous",
+    "translation": "كسكس"
+  },
+  {
+    "german": "denn",
+    "translation": "لأن"
+  },
+  {
+    "german": "diese",
+    "translation": "هذه"
+  },
+  {
+    "german": "dieser",
+    "translation": "هذا"
+  },
+  {
+    "german": "dieses",
+    "translation": "هذا"
+  },
+  {
+    "german": "Dose",
+    "translation": "علبة"
+  },
+  {
+    "german": "durch",
+    "translation": "خلال"
+  },
+  {
+    "german": "Ei",
+    "translation": "بيضة"
+  },
+  {
+    "german": "Einkaufszettel",
+    "translation": "قائمة التسوق"
+  },
+  {
+    "german": "einige",
+    "translation": "بعض"
+  },
+  {
+    "german": "Erbse",
+    "translation": "بازلاء"
+  },
+  {
+    "german": "Erdbeere",
+    "translation": "فراولة"
+  },
+  {
+    "german": "essen",
+    "translation": "يأكل"
+  },
+  {
+    "german": "etwas",
+    "translation": "شيء ما"
+  },
+  {
+    "german": "fertig",
+    "translation": "جاهز / منتهي"
+  },
+  {
+    "german": "Fisch",
+    "translation": "سمك"
+  },
+  {
+    "german": "Flasche",
+    "translation": "زجاجة"
+  },
+  {
+    "german": "Fleisch",
+    "translation": "لحم"
+  },
+  {
+    "german": "frisch",
+    "translation": "طازج"
+  },
+  {
+    "german": "Frühstück",
+    "translation": "فطور"
+  },
+  {
+    "german": "frühstücken",
+    "translation": "يتناول الفطور"
+  },
+  {
+    "german": "gemeinsam",
+    "translation": "سويًا"
+  },
+  {
+    "german": "Gemüse",
+    "translation": "خضروات"
+  },
+  {
+    "german": "gern",
+    "translation": "بكل سرور"
+  },
+  {
+    "german": "Getränk",
+    "translation": "مشروب"
+  },
+  {
+    "german": "Glas",
+    "translation": "كأس"
+  },
+  {
+    "german": "gleich",
+    "translation": "فسيحًا / الآن"
+  },
+  {
+    "german": "Gramm",
+    "translation": "غرام"
+  },
+  {
+    "german": "Himbeere",
+    "translation": "توت العليق"
+  },
+  {
+    "german": "Honig",
+    "translation": "عسل"
+  },
+  {
+    "german": "Joghurt",
+    "translation": "لبن"
+  },
+  {
+    "german": "Kaffee",
+    "translation": "قهوة"
+  },
+  {
+    "german": "Kartoffel",
+    "translation": "بطاطس"
+  },
+  {
+    "german": "Käse",
+    "translation": "جبن"
+  },
+  {
+    "german": "kaufen",
+    "translation": "يشتري"
+  },
+  {
+    "german": "Keks",
+    "translation": "بسكويت"
+  },
+  {
+    "german": "Kichererbse",
+    "translation": "حمص"
+  },
+  {
+    "german": "Kilo",
+    "translation": "كيلو"
+  },
+  {
+    "german": "Kirsche",
+    "translation": "كرز"
+  },
+  {
+    "german": "Kiwi",
+    "translation": "كيوي"
+  },
+  {
+    "german": "Kontrolle",
+    "translation": "مراقبة / فحص"
+  },
+  {
+    "german": "kosten",
+    "translation": "يكلف / يتذوق"
+  },
+  {
+    "german": "Kuchen",
+    "translation": "كعك"
+  },
+  {
+    "german": "Kunde",
+    "translation": "زبون (ذكر)"
+  },
+  {
+    "german": "Kundin",
+    "translation": "زبونة (أنثى)"
+  },
+  {
+    "german": "kurz",
+    "translation": "قصير"
+  },
+  {
+    "german": "Lammfleisch",
+    "translation": "لحم حمل"
+  },
+  {
+    "german": "Lebensmittel",
+    "translation": "مواد غذائية"
+  },
+  {
+    "german": "Limonade",
+    "translation": "ليموناضة"
+  },
+  {
+    "german": "Limo",
+    "translation": "ليموناضة (اختصار)"
+  },
+  {
+    "german": "Liter",
+    "translation": "لتر"
+  },
+  {
+    "german": "Mandel",
+    "translation": "لوز"
+  },
+  {
+    "german": "Mandarine",
+    "translation": "يوسفي"
+  },
+  {
+    "german": "Mango",
+    "translation": "مانجا"
+  },
+  {
+    "german": "Markt",
+    "translation": "سوق"
+  },
+  {
+    "german": "Marmelade",
+    "translation": "مربى"
+  },
+  {
+    "german": "Mehl",
+    "translation": "طحين"
+  },
+  {
+    "german": "meistens",
+    "translation": "في الغالب"
+  },
+  {
+    "german": "Mengenangabe",
+    "translation": "بيان الكمية"
+  },
+  {
+    "german": "Melone",
+    "translation": "بطيخ"
+  },
+  {
+    "german": "Milch",
+    "translation": "حليب"
+  },
+  {
+    "german": "Milchprodukt",
+    "translation": "منتج ألبان"
+  },
+  {
+    "german": "mögen",
+    "translation": "يحب"
+  },
+  {
+    "german": "Möhre",
+    "translation": "جزر"
+  },
+  {
+    "german": "müssen",
+    "translation": "يجب"
+  },
+  {
+    "german": "nehmen",
+    "translation": "يأخذ"
+  },
+  {
+    "german": "Nudel",
+    "translation": "معكرونة"
+  },
+  {
+    "german": "nur",
+    "translation": "فقط"
+  },
+  {
+    "german": "Obst",
+    "translation": "فاكهة"
+  },
+  {
+    "german": "Obstsalat",
+    "translation": "سلطة فواكه"
+  },
+  {
+    "german": "Olivenöl",
+    "translation": "زيت زيتون"
+  },
+  {
+    "german": "Orange",
+    "translation": "برتقال"
+  },
+  {
+    "german": "ordnen",
+    "translation": "ينظم"
+  },
+  {
+    "german": "Packung",
+    "translation": "عبوة"
+  },
+  {
+    "german": "Paprika",
+    "translation": "فلفل رومي"
+  },
+  {
+    "german": "Partner",
+    "translation": "شريك (ذكر)"
+  },
+  {
+    "german": "Partnerin",
+    "translation": "شريكة (أنثى)"
+  },
+  {
+    "german": "Pfund",
+    "translation": "رطل (وحدة وزن)"
+  },
+  {
+    "german": "Pilz",
+    "translation": "فطر"
+  },
+  {
+    "german": "planen",
+    "translation": "يخطط"
+  },
+  {
+    "german": "Preis",
+    "translation": "سعر"
+  },
+  {
+    "german": "pro",
+    "translation": "لكل"
+  },
+  {
+    "german": "Pudding",
+    "translation": "بودنغ"
+  },
+  {
+    "german": "Reis",
+    "translation": "أرز"
+  },
+  {
+    "german": "Rindfleisch",
+    "translation": "لحم بقر"
+  },
+  {
+    "german": "Saft",
+    "translation": "عصير"
+  },
+  {
+    "german": "Sahne",
+    "translation": "قشدة"
+  },
+  {
+    "german": "Salat",
+    "translation": "سلطة"
+  },
+  {
+    "german": "Salz",
+    "translation": "ملح"
+  },
+  {
+    "german": "sich",
+    "translation": "نفسه"
+  },
+  {
+    "german": "schmecken",
+    "translation": "طعمه لذيذ"
+  },
+  {
+    "german": "Schokolade",
+    "translation": "شوكولاتة"
+  },
+  {
+    "german": "schön",
+    "translation": "جميل"
+  },
+  {
+    "german": "Schweinefleisch",
+    "translation": "لحم خنزير"
+  },
+  {
+    "german": "sonst",
+    "translation": "وإلا"
+  },
+  {
+    "german": "stehen",
+    "translation": "يقف"
+  },
+  {
+    "german": "streichen",
+    "translation": "يمحو / يلطخ"
+  },
+  {
+    "german": "Stück",
+    "translation": "قطعة"
+  },
+  {
+    "german": "Tasse",
+    "translation": "فنجان"
+  },
+  {
+    "german": "Tee",
+    "translation": "شاي"
+  },
+  {
+    "german": "teuer",
+    "translation": "غالٍ"
+  },
+  {
+    "german": "Tipp",
+    "translation": "نصيحة"
+  },
+  {
+    "german": "Tomate",
+    "translation": "طماطم"
+  },
+  {
+    "german": "Traube",
+    "translation": "عنب"
+  },
+  {
+    "german": "trinken",
+    "translation": "يشرب"
+  },
+  {
+    "german": "unterstreichen",
+    "translation": "يؤكد / يحتها"
+  },
+  {
+    "german": "verbinden",
+    "translation": "يربط / يوصل"
+  },
+  {
+    "german": "Verkäufer",
+    "translation": "بائع"
+  },
+  {
+    "german": "Verkäuferin",
+    "translation": "بائعة"
+  },
+  {
+    "german": "von",
+    "translation": "من"
+  },
+  {
+    "german": "Wasser",
+    "translation": "ماء"
+  },
+  {
+    "german": "Wein",
+    "translation": "نبيذ"
+  },
+  {
+    "german": "Zitrone",
+    "translation": "ليمون"
+  },
+  {
+    "german": "Zucker",
+    "translation": "سكر"
+  },
+  {
+    "german": "Zwiebel",
+    "translation": "بصل"
+  },
+  {
+    "german": "abends",
+    "translation": "مساءً"
+  },
+  {
+    "german": "Alltag",
+    "translation": "الحياة اليومية"
+  },
+  {
+    "german": "anrufen",
+    "translation": "يتصل هاتفياً"
+  },
+  {
+    "german": "Arbeit",
+    "translation": "عمل"
+  },
+  {
+    "german": "aufstehen",
+    "translation": "يستيقظ"
+  },
+  {
+    "german": "beginnen",
+    "translation": "يبدأ"
+  },
+  {
+    "german": "beide",
+    "translation": "كِلا / كِلاها"
+  },
+  {
+    "german": "Bett",
+    "translation": "سرير"
+  },
+  {
+    "german": "bis",
+    "translation": "حتى"
+  },
+  {
+    "german": "Büro",
+    "translation": "مكتب"
+  },
+  {
+    "german": "Computer",
+    "translation": "حاسوب"
+  },
+  {
+    "german": "Computerspiel",
+    "translation": "لعبة حاسوب"
+  },
+  {
+    "german": "erst",
+    "translation": "أولاً"
+  },
+  {
+    "german": "fernsehen",
+    "translation": "يشاهد التلفاز"
+  },
+  {
+    "german": "Film",
+    "translation": "فيلم"
+  },
+  {
+    "german": "Freundin",
+    "translation": "صديقة (أنثى)"
+  },
+  {
+    "german": "früh",
+    "translation": "مبكراً"
+  },
+  {
+    "german": "Fußball",
+    "translation": "كرة القدم"
+  },
+  {
+    "german": "gehen",
+    "translation": "يذهب"
+  },
+  {
+    "german": "geöffnet",
+    "translation": "مفتوح"
+  },
+  {
+    "german": "grillen",
+    "translation": "يشوي"
+  },
+  {
+    "german": "halb",
+    "translation": "نصف"
+  },
+  {
+    "german": "Hunger",
+    "translation": "جوع"
+  },
+  {
+    "german": "Idee",
+    "translation": "فكرة"
+  },
+  {
+    "german": "Interview",
+    "translation": "مقابلة"
+  },
+  {
+    "german": "kochen",
+    "translation": "يطبخ"
+  },
+  {
+    "german": "können",
+    "translation": "يستطيع"
+  },
+  {
+    "german": "lecker",
+    "translation": "لذيذ"
+  },
+  {
+    "german": "leider",
+    "translation": "للأسف"
+  },
+  {
+    "german": "manchmal",
+    "translation": "أحياناً"
+  },
+  {
+    "german": "mehr",
+    "translation": "أكثر"
+  },
+  {
+    "german": "Mittag",
+    "translation": "ظهر"
+  },
+  {
+    "german": "mittags",
+    "translation": "ظهراً"
+  },
+  {
+    "german": "Mittagspause",
+    "translation": "استراحة الظهيرة"
+  },
+  {
+    "german": "Morgen",
+    "translation": "صباح"
+  },
+  {
+    "german": "morgens",
+    "translation": "صباحاً"
+  },
+  {
+    "german": "müde",
+    "translation": "متعب"
+  },
+  {
+    "german": "Musik",
+    "translation": "موسيقى"
+  },
+  {
+    "german": "Nachmittag",
+    "translation": "بعد الظهر"
+  },
+  {
+    "german": "nachmittags",
+    "translation": "بعد الظهر"
+  },
+  {
+    "german": "nachts",
+    "translation": "ليلاً"
+  },
+  {
+    "german": "nie",
+    "translation": "أبداً"
+  },
+  {
+    "german": "Notizzettel",
+    "translation": "ورقة ملاحظات"
+  },
+  {
+    "german": "oft",
+    "translation": "غالباً"
+  },
+  {
+    "german": "Pizza",
+    "translation": "بيتزا"
+  },
+  {
+    "german": "putzen",
+    "translation": "ينظف"
+  },
+  {
+    "german": "schade",
+    "translation": "مؤسف"
+  },
+  {
+    "german": "schlafen",
+    "translation": "ينام"
+  },
+  {
+    "german": "Schluss",
+    "translation": "نهاية"
+  },
+  {
+    "german": "Schule",
+    "translation": "مدرسة"
+  },
+  {
+    "german": "spät",
+    "translation": "متأخر"
+  },
+  {
+    "german": "spazieren",
+    "translation": "يتنزه"
+  },
+  {
+    "german": "Spiel",
+    "translation": "لعبة"
+  },
+  {
+    "german": "Sport",
+    "translation": "رياضة"
+  },
+  {
+    "german": "Stunde",
+    "translation": "ساعة (زمن)"
+  },
+  {
+    "german": "Stundenplan",
+    "translation": "جدول الدروس"
+  },
+  {
+    "german": "Supermarkt",
+    "translation": "سوبر ماركت"
+  },
+  {
+    "german": "telefonieren",
+    "translation": "يتحدث هاتفياً"
+  },
+  {
+    "german": "tun",
+    "translation": "يفعل"
+  },
+  {
+    "german": "Uhr",
+    "translation": "ساعة (حائط)"
+  },
+  {
+    "german": "Uhrzeit",
+    "translation": "الوقت"
+  },
+  {
+    "german": "um",
+    "translation": "في (الوقت)"
+  },
+  {
+    "german": "Unterricht",
+    "translation": "حصة / درس"
+  },
+  {
+    "german": "Viertel",
+    "translation": "ربع"
+  },
+  {
+    "german": "vor",
+    "translation": "قبل"
+  },
+  {
+    "german": "Vormittag",
+    "translation": "قبل الظهر"
+  },
+  {
+    "german": "vormittags",
+    "translation": "قبل الظهر"
+  },
+  {
+    "german": "wann",
+    "translation": "متى"
+  },
+  {
+    "german": "Wohnung",
+    "translation": "شقة"
+  },
+  {
+    "german": "zeichnen",
+    "translation": "يرسم"
+  },
+  {
+    "german": "Zeit",
+    "translation": "وقت"
+  },
+  {
+    "german": "zu Hause",
+    "translation": "في البيت"
+  },
+  {
+    "german": "ab",
+    "translation": "ابتداءً من"
+  },
+  {
+    "german": "Altbau",
+    "translation": "مبنى قديم"
+  },
+  {
+    "german": "Angabe",
+    "translation": "معلومة"
+  },
+  {
+    "german": "Anzeige",
+    "translation": "إعلان"
+  },
+  {
+    "german": "Arbeitszimmer",
+    "translation": "غرفة العمل"
+  },
+  {
+    "german": "Bad",
+    "translation": "حمام"
+  },
+  {
+    "german": "baden",
+    "translation": "يستحم"
+  },
+  {
+    "german": "Badewanne",
+    "translation": "بانيو"
+  },
+  {
+    "german": "Badezimmer",
+    "translation": "حمام"
+  },
+  {
+    "german": "Balkon",
+    "translation": "شرفة"
+  },
+  {
+    "german": "Bauernhof",
+    "translation": "مزرعة"
+  },
+  {
+    "german": "bei",
+    "translation": "عند"
+  },
+  {
+    "german": "bekommen",
+    "translation": "يحصل على"
+  },
+  {
+    "german": "Besichtigungstermin",
+    "translation": "موعد زيارة"
+  },
+  {
+    "german": "besser",
+    "translation": "أفضل"
+  },
+  {
+    "german": "billig",
+    "translation": "رخيص"
+  },
+  {
+    "german": "breit",
+    "translation": "واسع"
+  },
+  {
+    "german": "circa",
+    "translation": "حوالي"
+  },
+  {
+    "german": "dazu",
+    "translation": "بالإضافة إلى ذلك"
+  },
+  {
+    "german": "Diele",
+    "translation": "ردهة"
+  },
+  {
+    "german": "direkt",
+    "translation": "مباشر"
+  },
+  {
+    "german": "dort",
+    "translation": "هناك"
+  },
+  {
+    "german": "draußen",
+    "translation": "في الخارج"
+  },
+  {
+    "german": "dringend",
+    "translation": "عاجل"
+  },
+  {
+    "german": "dunkel",
+    "translation": "مظلم"
+  },
+  {
+    "german": "Dusche",
+    "translation": "دش"
+  },
+  {
+    "german": "Einfamilienhaus",
+    "translation": "منزل عائلي"
+  },
+  {
+    "german": "einkaufen",
+    "translation": "يتسوق"
+  },
+  {
+    "german": "Elektrogerät",
+    "translation": "جهاز كهربائي"
+  },
+  {
+    "german": "Erdgeschoss",
+    "translation": "الطابق الأرضي"
+  },
+  {
+    "german": "ersetzen",
+    "translation": "يستبدل"
+  },
+  {
+    "german": "Euro",
+    "translation": "يورو"
+  },
+  {
+    "german": "Fernseher",
+    "translation": "تلفاز"
+  },
+  {
+    "german": "finden",
+    "translation": "يجد"
+  },
+  {
+    "german": "Firma",
+    "translation": "شركة"
+  },
+  {
+    "german": "Flur",
+    "translation": "ممر"
+  },
+  {
+    "german": "frei",
+    "translation": "حر / شاغر"
+  },
+  {
+    "german": "Garage",
+    "translation": "كراج"
+  },
+  {
+    "german": "Garten",
+    "translation": "حديقة"
+  },
+  {
+    "german": "Gast",
+    "translation": "ضيف"
+  },
+  {
+    "german": "Geld",
+    "translation": "مال"
+  },
+  {
+    "german": "gemütlich",
+    "translation": "مريح"
+  },
+  {
+    "german": "gepflegt",
+    "translation": "مهندم"
+  },
+  {
+    "german": "Gerät",
+    "translation": "جهاز"
+  },
+  {
+    "german": "Geschäft",
+    "translation": "محل تجاري"
+  },
+  {
+    "german": "Gespräch",
+    "translation": "محادثة"
+  },
+  {
+    "german": "Größe",
+    "translation": "حجم"
+  },
+  {
+    "german": "grün",
+    "translation": "أخضر"
+  },
+  {
+    "german": "hängen",
+    "translation": "يعلق"
+  },
+  {
+    "german": "hässlich",
+    "translation": "قبيح"
+  },
+  {
+    "german": "Hauptsache",
+    "translation": "الأهم"
+  },
+  {
+    "german": "Haus",
+    "translation": "منزل"
+  },
+  {
+    "german": "Haustier",
+    "translation": "حيوان أليف"
+  },
+  {
+    "german": "Heizung",
+    "translation": "تدفئة"
+  },
+  {
+    "german": "helfen",
+    "translation": "يساعد"
+  },
+  {
+    "german": "hell",
+    "translation": "مضيء"
+  },
+  {
+    "german": "Herd",
+    "translation": "موقد"
+  },
+  {
+    "german": "Hilfe",
+    "translation": "مساعدة"
+  },
+  {
+    "german": "hinten",
+    "translation": "في الخلف"
+  },
+  {
+    "german": "Hochhaus",
+    "translation": "عمارة مرتفعة"
+  },
+  {
+    "german": "ihr",
+    "translation": "خاصتها"
+  },
+  {
+    "german": "ihre",
+    "translation": "خاصتها"
+  },
+  {
+    "german": "Immobilie",
+    "translation": "عقار"
+  },
+  {
+    "german": "insgesamt",
+    "translation": "إجمالاً"
+  },
+  {
+    "german": "interessant",
+    "translation": "مثير للاهتمام"
+  },
+  {
+    "german": "jeder",
+    "translation": "كل (ذكر)"
+  },
+  {
+    "german": "jede",
+    "translation": "كل (أنثى)"
+  },
+  {
+    "german": "jedes",
+    "translation": "كل (محايد)"
+  },
+  {
+    "german": "Juni",
+    "translation": "يونيو"
+  },
+  {
+    "german": "Kaffeemaschine",
+    "translation": "آلة صنع القهوة"
+  },
+  {
+    "german": "kalt",
+    "translation": "بارد"
+  },
+  {
+    "german": "Kaution",
+    "translation": "وديعة"
+  },
+  {
+    "german": "Keller",
+    "translation": "قبو"
+  },
+  {
+    "german": "Kinderzimmer",
+    "translation": "غرفة الأطفال"
+  },
+  {
+    "german": "Kleiderschrank",
+    "translation": "خزانة ملابس"
+  },
+  {
+    "german": "Küche",
+    "translation": "مطبخ"
+  },
+  {
+    "german": "Kühlschrank",
+    "translation": "ثلاجة"
+  },
+  {
+    "german": "lang",
+    "translation": "طويل"
+  },
+  {
+    "german": "lassen",
+    "translation": "يدع / يترك"
+  },
+  {
+    "german": "laut",
+    "translation": "صاخب"
+  },
+  {
+    "german": "liebsten",
+    "translation": "مفضل"
+  },
+  {
+    "german": "liegen",
+    "translation": "يقع"
+  },
+  {
+    "german": "maximal",
+    "translation": "أقصى"
+  },
+  {
+    "german": "Mehrfamilienhaus",
+    "translation": "عمارة سكنية"
+  },
+  {
+    "german": "Miete",
+    "translation": "إيجار"
+  },
+  {
+    "german": "mindestens",
+    "translation": "على الأقل"
+  },
+  {
+    "german": "Möbel",
+    "translation": "أثاث"
+  },
+  {
+    "german": "möbliert",
+    "translation": "مؤثث"
+  },
+  {
+    "german": "modern",
+    "translation": "حديث"
+  },
+  {
+    "german": "Monat",
+    "translation": "شهر"
+  },
+  {
+    "german": "Monatsmiete",
+    "translation": "الإيجار الشهري"
+  },
+  {
+    "german": "Müll",
+    "translation": "قمامة"
+  },
+  {
+    "german": "neben",
+    "translation": "بجانب"
+  },
+  {
+    "german": "Nebenkosten",
+    "translation": "تكاليف إضافية"
+  },
+  {
+    "german": "ohne",
+    "translation": "بدون"
+  },
+  {
+    "german": "Obergeschoss",
+    "translation": "طابق علوي"
+  },
+  {
+    "german": "Ort",
+    "translation": "مكان"
+  },
+  {
+    "german": "Pflanze",
+    "translation": "نبات"
+  },
+  {
+    "german": "Plan",
+    "translation": "خطة"
+  },
+  {
+    "german": "Platz",
+    "translation": "مكان / مساحة"
+  },
+  {
+    "german": "Quadratmeter",
+    "translation": "متر مربع"
+  },
+  {
+    "german": "Regal",
+    "translation": "رف"
+  },
+  {
+    "german": "Reihenhaus",
+    "translation": "منزل متلاصق"
+  },
+  {
+    "german": "ruhig",
+    "translation": "هادئ"
+  },
+  {
+    "german": "schauen",
+    "translation": "ينظر"
+  },
+  {
+    "german": "Schlafzimmer",
+    "translation": "غرفة النوم"
+  },
+  {
+    "german": "schmal",
+    "translation": "ضيق"
+  },
+  {
+    "german": "Schrank",
+    "translation": "خزانة"
+  },
+  {
+    "german": "Sessel",
+    "translation": "كرسي"
+  },
+  {
+    "german": "singen",
+    "translation": "يغني"
+  },
+  {
+    "german": "sitzen",
+    "translation": "يجلس"
+  },
+  {
+    "german": "Sofa",
+    "translation": "أريكة"
+  },
+  {
+    "german": "sofort",
+    "translation": "فوراً"
+  },
+  {
+    "german": "sollen",
+    "translation": "ينبغي"
+  },
+  {
+    "german": "Sonderangebot",
+    "translation": "عرض خاص"
+  },
+  {
+    "german": "Sonne",
+    "translation": "شمس"
+  },
+  {
+    "german": "sonstiges",
+    "translation": "أشياء أخرى"
+  },
+  {
+    "german": "Sprachschule",
+    "translation": "مدرسة لغات"
+  },
+  {
+    "german": "spülen",
+    "translation": "يغسل الصحون"
+  },
+  {
+    "german": "Spülmaschine",
+    "translation": "غسالة الصحون"
+  },
+  {
+    "german": "Stadt",
+    "translation": "مدينة"
+  },
+  {
+    "german": "suchen",
+    "translation": "يبحث"
+  },
+  {
+    "german": "super",
+    "translation": "رائع"
+  },
+  {
+    "german": "Teppich",
+    "translation": "سجادة"
+  },
+  {
+    "german": "Terrasse",
+    "translation": "تراس"
+  },
+  {
+    "german": "Toilette",
+    "translation": "مرحاض"
+  },
+  {
+    "german": "toll",
+    "translation": "رائع"
+  },
+  {
+    "german": "Traumwohnung",
+    "translation": "شقة الأحلام"
+  },
+  {
+    "german": "unbedingt",
+    "translation": "حتماً"
+  },
+  {
+    "german": "ungemütlich",
+    "translation": "غير مريح"
+  },
+  {
+    "german": "unser",
+    "translation": "خاصتنا"
+  },
+  {
+    "german": "unsere",
+    "translation": "خاصتنا"
+  },
+  {
+    "german": "warum",
+    "translation": "لماذا"
+  },
+  {
+    "german": "waschen",
+    "translation": "يغسل"
+  },
+  {
+    "german": "Waschmaschine",
+    "translation": "غسالة ملابس"
+  },
+  {
+    "german": "WC",
+    "translation": "مرحاض"
+  },
+  {
+    "german": "wegziehen",
+    "translation": "يغادر / ينتقل"
+  },
+  {
+    "german": "weiter",
+    "translation": "يستمر"
+  },
+  {
+    "german": "wenn",
+    "translation": "إذا / عندما"
+  },
+  {
+    "german": "werden",
+    "translation": "يصبح"
+  },
+  {
+    "german": "wichtig",
+    "translation": "مهم"
+  },
+  {
+    "german": "wohnen",
+    "translation": "يسكن"
+  },
+  {
+    "german": "Wohnungsanzeige",
+    "translation": "إعلان شقة"
+  },
+  {
+    "german": "Wohnungssuche",
+    "translation": "بحث عن شقة"
+  },
+  {
+    "german": "Wohnzimmer",
+    "translation": "غرفة المعيشة"
+  },
+  {
+    "german": "wunderschön",
+    "translation": "جميل جداً"
+  },
+  {
+    "german": "wünschen",
+    "translation": "يتمنى"
+  },
+  {
+    "german": "zahlen",
+    "translation": "يدفع"
+  },
+  {
+    "german": "Zeitung",
+    "translation": "جريدة"
+  },
+  {
+    "german": "Zentrum",
+    "translation": "مركز"
+  },
+  {
+    "german": "Zimmer",
+    "translation": "غرفة"
+  },
+  {
+    "german": "zu Fuß",
+    "translation": "على الأقدام"
+  }
+]

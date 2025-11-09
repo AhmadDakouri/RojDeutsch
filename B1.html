@@ -1,0 +1,1227 @@
+<meta charset="UTF-8" />
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+<title>B1</title>
+
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #2196F3;
+            --error-color: #F44336;
+            --accent-color: #FF9800;
+            --success-color: #4CAF50;
+            --bg-light: #f5f7fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            background: linear-gradient(135deg, #2196F3, #21CBF3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* ✅ الصفحة الرئيسية */
+        .home-page {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .home-title {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: #2196F3;
+        }
+
+        .home-subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .sections-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .section-card {
+            background: linear-gradient(135deg, #ffffff, #e8ecf3);
+            border: 2px solid #d0d0d0;
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: 0.25s;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .section-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--secondary-color);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .section-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .section-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .section-desc {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* زر الصفحة الرئيسية الجديد */
+        .homepage-btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #9C27B0, #E91E63);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.25s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+
+        .homepage-btn:hover {
+            opacity: 0.85;
+            transform: translateY(-2px);
+        }
+
+        /* ✅ شبكة عرض الكلمات */
+        .words-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* عمودين */
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        /* ✅ تصميم عمودي للجمل */
+        .sentences-vertical {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .german-sentences-section, .translation-sentences-section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section-label {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2196F3;
+            margin-bottom: 8px;
+            text-align: center;
+            padding: 8px;
+            background: rgba(33, 150, 243, 0.1);
+            border-radius: 8px;
+        }
+
+        .words-column, .sentences-column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .word-btn, .sentence-btn {
+            min-height: 75px;
+            padding: 12px;
+            background: linear-gradient(135deg, #ffffff, #e8ecf3);
+            border: 2px solid #d0d0d0;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            transition: 0.25s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+            line-height: 1.4;
+        }
+
+        .sentence-btn {
+            font-size: 15px;
+            min-height: 70px;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        .word-btn:hover, .sentence-btn:hover {
+            transform: translateY(-3px);
+            border-color: var(--secondary-color);
+        }
+
+        .word-btn.correct, .sentence-btn.correct {
+            background: linear-gradient(135deg, #4CAF50, #7CD66B);
+            color: white;
+            border-color: var(--success-color);
+        }
+
+        .word-btn.incorrect, .sentence-btn.incorrect {
+            background: linear-gradient(135deg, #F44336, #FF7A6A);
+            color: white;
+            border-color: var(--error-color);
+        }
+
+        .word-btn.selected, .sentence-btn.selected {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.3);
+        }
+
+        .navigation {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-btn {
+            flex: 1;
+            padding: 12px;
+            background: linear-gradient(135deg, #2196F3, #21CBF3);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: .25s;
+        }
+
+        .nav-btn:hover {
+            opacity: .85;
+            transform: translateY(-2px);
+        }
+
+        .reset-btn {
+            background: linear-gradient(135deg, #FF9800, #FF5722);
+        }
+
+        .back-btn {
+            background: linear-gradient(135deg, #9C27B0, #E91E63);
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* ✅ إحصائيات الجمل */
+        .stats-container {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .stat-box {
+            flex: 1;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            padding: 12px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .progress-container {
+            margin-top: 14px;
+        }
+
+        .progress-bar {
+            height: 12px;
+            background: #e0e0e0;
+            border-radius: 8px;
+        }
+
+        .progress {
+            height: 100%;
+            background: linear-gradient(135deg, #4CAF50, #8BC34A);
+            border-radius: 8px;
+            transition: width 0.3s ease;
+        }
+
+        .completion-message {
+            margin-top: 14px;
+            padding: 14px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #E8F5E9, #C8E6C9);
+            text-align: center;
+        }
+    </style>
+
+
+
+<div class="container">
+    <!-- الصفحة الرئيسية -->
+    
+<div id="home-page" class="home-page">
+        
+<div class="home-title">B1</div>
+        
+<div class="home-subtitle">اهلا بكم</div>
+        
+        
+<div class="sections-grid">
+            
+<div class="section-card" id="words-section-card">
+                
+<div class="section-icon">📚</div>
+                
+<div class="section-name">قسم الكلمات</div>
+                
+<div class="section-desc">تعلم الكلمات الألمانية ومطابقتها مع ترجماتها</div>
+            </div>
+            
+            
+<div class="section-card" id="sentences-section-card">
+                
+<div class="section-icon">💬</div>
+                
+<div class="section-name">قسم الجمل</div>
+                
+<div class="section-desc">تعلم الجمل الألمانية وممارسة استخدامها</div>
+            </div>
+        </div>
+
+        <!-- زر الصفحة الرئيسية -->
+        <a href="index.html" class="homepage-btn">
+            🏠 الصفحة الرئيسية
+        </a>
+    </div>
+
+    <!-- قسم الكلمات -->
+    
+<div id="words-container" class="hidden" style="margin-top:20px;">
+        
+<div class="challenge-container" style="background:rgba(255,255,255,0.95);padding:18px;border-radius:12px;">
+            
+<div class="section-title" style="text-align:center;margin-bottom:12px;">
+                
+<h2> الصفحة <span id="words-page-number">1</span></h2>
+            </div>
+
+            
+<div class="challenge-content">
+                
+<div id="words-challenge"><!-- سيتم ملؤه ديناميكياً --></div>
+
+                
+<div class="stats-container">
+                    
+<div class="stat-box">
+                        
+<div>إجمالي الكلمات</div>
+                        
+<div id="words-total-count" class="stat-value">0</div>
+                    </div>
+                    
+<div class="stat-box">
+                        
+<div>المكتملة</div>
+                        
+<div id="words-completed-count" class="stat-value">0</div>
+                    </div>
+                    
+<div class="stat-box">
+                        
+<div>المتبقية</div>
+                        
+<div id="words-remaining-count" class="stat-value">0</div>
+                    </div>
+                </div>
+
+                
+<div class="progress-container">
+                    
+<div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+                        <span>التقدّم</span>
+                        <span id="words-progress-percent">0%</span>
+                    </div>
+                    
+<div class="progress-bar">
+                        
+<div id="words-progress" class="progress" style="width:0%;"></div>
+                    </div>
+                </div>
+
+                
+<div style="margin-top:16px;" class="navigation">
+                    <button id="words-back-btn" class="nav-btn back-btn">العودة</button>
+                    <button id="words-prev-btn" class="nav-btn">السابق</button>
+                    <button id="words-reset-btn" class="nav-btn reset-btn">إعادة التحدي</button>
+                    <button id="words-next-btn" class="nav-btn">التالي</button>
+                </div>
+
+                
+<div id="words-completion-message" class="hidden completion-message">
+                    
+<h3>🎉 تهانينا! أكملت جميع الكلمات 🎉</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- قسم الجمل -->
+    
+<div id="sentences-container" class="hidden" style="margin-top:20px;">
+        
+<div class="challenge-container" style="background:rgba(255,255,255,0.95);padding:18px;border-radius:12px;">
+            
+<div class="section-title" style="text-align:center;margin-bottom:12px;">
+                
+<h2>قسم الجمل - الصفحة <span id="sentences-page-number">1</span></h2>
+            </div>
+            
+<div class="challenge-content">
+                
+<div id="sentences-challenge"><!-- ديناميكياً --></div>
+
+                
+<div class="stats-container">
+                    
+<div class="stat-box">
+                        
+<div>إجمالي الجمل</div>
+                        
+<div id="sentences-total-count" class="stat-value">0</div>
+                    </div>
+                    
+<div class="stat-box">
+                        
+<div>المكتملة</div>
+                        
+<div id="sentences-completed-count" class="stat-value">0</div>
+                    </div>
+                    
+<div class="stat-box">
+                        
+<div>المتبقية</div>
+                        
+<div id="sentences-remaining-count" class="stat-value">0</div>
+                    </div>
+                </div>
+
+                
+<div class="progress-container">
+                    
+<div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+                        <span>التقدّم</span>
+                        <span id="sentences-progress-percent">0%</span>
+                    </div>
+                    
+<div class="progress-bar">
+                        
+<div id="sentences-progress" class="progress" style="width:0%;"></div>
+                    </div>
+                </div>
+
+                
+<div style="margin-top:16px;" class="navigation">
+                    <button id="sentences-back-btn" class="nav-btn back-btn">العودة</button>
+                    <button id="sentences-prev-btn" class="nav-btn">السابق</button>
+                    <button id="sentences-reset-btn" class="nav-btn reset-btn">إعادة التحدي</button>
+                    <button id="sentences-next-btn" class="nav-btn">التالي</button>
+                </div>
+
+                
+<div id="sentences-completion-message" class="hidden completion-message">
+                    
+<h3>🎉 تهانينا! أكملت جميع الجمل 🎉</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<div id="loading-message" style="text-align:center;margin-top:30px;">
+        جاري التحميل...
+    </div>
+</div>
+
+<!-- أصوات -->
+<audio id="correct-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-correct-answer-tone-2870.mp3"></audio>
+<audio id="incorrect-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-wrong-answer-fail-notification-946.mp3"></audio>
+
+<script>
+/* -------------------------
+   بيانات التطبيق والإعداد
+   ------------------------- */
+// معرف فريد لهذه الصفحة المستقلة
+const PAGE_ID = 'independent_page';
+
+const appData = {
+    currentSection: null,
+    words: [],             // يحتوي كائنات { german, translation }
+    sentences: [],         // يحتوي كائنات { german, translation }
+    wordsProgress: {
+        currentPage: 1,
+        completedItems: new Set(),
+        itemsPerPage: 5    // الآن 5 أزواج (يعني 10 أزرار: 5 ألماني + 5 ترجمة)
+    },
+    sentencesProgress: {
+        currentPage: 1,
+        completedItems: new Set(),
+        itemsPerPage: 3    // الآن 3 أزواج (يعني 6 أزرار: 3 ألماني + 3 ترجمة)
+    },
+    // لتخزين الاختيارات الحالية
+    selectedGermanObj: null,
+    selectedTranslationText: null,
+    selectedGermanSentence: null,
+    selectedTranslationSentence: null
+};
+
+/* عناصر DOM */
+const elements = {
+    homePage: document.getElementById('home-page'),
+    wordsSectionCard: document.getElementById('words-section-card'),
+    sentencesSectionCard: document.getElementById('sentences-section-card'),
+    wordsContainer: document.getElementById('words-container'),
+    sentencesContainer: document.getElementById('sentences-container'),
+    wordsChallenge: document.getElementById('words-challenge'),
+    sentencesChallenge: document.getElementById('sentences-challenge'),
+    wordsPageNumber: document.getElementById('words-page-number'),
+    sentencesPageNumber: document.getElementById('sentences-page-number'),
+    wordsBackBtn: document.getElementById('words-back-btn'),
+    wordsPrevBtn: document.getElementById('words-prev-btn'),
+    wordsNextBtn: document.getElementById('words-next-btn'),
+    wordsResetBtn: document.getElementById('words-reset-btn'),
+    sentencesBackBtn: document.getElementById('sentences-back-btn'),
+    sentencesPrevBtn: document.getElementById('sentences-prev-btn'),
+    sentencesNextBtn: document.getElementById('sentences-next-btn'),
+    sentencesResetBtn: document.getElementById('sentences-reset-btn'),
+    loadingMessage: document.getElementById('loading-message'),
+    correctSound: document.getElementById('correct-sound'),
+    incorrectSound: document.getElementById('incorrect-sound'),
+    wordsProgressBar: document.getElementById('words-progress'),
+    wordsProgressPercent: document.getElementById('words-progress-percent'),
+    wordsTotalCount: document.getElementById('words-total-count'),
+    wordsCompletedCount: document.getElementById('words-completed-count'),
+    wordsRemainingCount: document.getElementById('words-remaining-count'),
+    wordsCompletionMessage: document.getElementById('words-completion-message'),
+    sentencesProgressBar: document.getElementById('sentences-progress'),
+    sentencesProgressPercent: document.getElementById('sentences-progress-percent'),
+    sentencesTotalCount: document.getElementById('sentences-total-count'),
+    sentencesCompletedCount: document.getElementById('sentences-completed-count'),
+    sentencesRemainingCount: document.getElementById('sentences-remaining-count'),
+    sentencesCompletionMessage: document.getElementById('sentences-completion-message')
+};
+
+/* -------------------------
+   وظيفة النطق للكلمات والجمل الألمانية
+   ------------------------- */
+function speakGermanText(text) {
+    if ('speechSynthesis' in window) {
+        speechSynthesis.cancel();
+        
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'de-DE';
+        utterance.rate = 0.9;
+        utterance.pitch = 1;
+        utterance.volume = 1;
+        
+        const voices = speechSynthesis.getVoices();
+        const germanVoice = voices.find(voice => 
+            voice.lang.startsWith('de') && voice.name.includes('Female')
+        ) || voices.find(voice => 
+            voice.lang.startsWith('de')
+        );
+        
+        if (germanVoice) {
+            utterance.voice = germanVoice;
+        }
+        
+        utterance.onstart = function() {
+            console.log('بدء النطق: ' + text);
+        };
+        
+        utterance.onerror = function(event) {
+            console.error('خطأ في النطق:', event.error);
+        };
+        
+        speechSynthesis.speak(utterance);
+    } else {
+        console.warn('متصفحك لا يدعم خاصية النطق Text-to-Speech');
+    }
+}
+
+/* -------------------------
+   تحميل البيانات من الملفات الخارجية
+   ------------------------- */
+async function loadData() {
+    try {
+        // تحميل الكلمات من ملف b1.json
+        const wordsResponse = await fetch('b1.json');
+        if (!wordsResponse.ok) {
+            throw new Error('فشل في تحميل ملف الكلمات');
+        }
+        const wordsData = await wordsResponse.json();
+        
+        // تحميل الجمل من ملف b1ahmad.json
+        const sentencesResponse = await fetch('b1ahmad.json');
+        if (!sentencesResponse.ok) {
+            throw new Error('فشل في تحميل ملف الجمل');
+        }
+        const sentencesData = await sentencesResponse.json();
+        
+        // تعيين البيانات في التطبيق
+        appData.words = wordsData;
+        appData.sentences = sentencesData;
+        
+        console.log('تم تحميل البيانات بنجاح:', {
+            words: appData.words.length,
+            sentences: appData.sentences.length
+        });
+        
+    } catch (err) {
+        console.error('خطأ في تحميل البيانات:', err);
+        elements.loadingMessage.textContent = 'خطأ في تحميل البيانات. تأكد من وجود الملفات b1.json و b1ahmad.json';
+        throw err;
+    }
+}
+
+/* -------------------------
+   حفظ واسترجاع التقدّم من localStorage
+   ------------------------- */
+function loadProgress() {
+    const raw = localStorage.getItem(`germanLearningAppProgress_${PAGE_ID}`);
+    if (!raw) return;
+    try {
+        const p = JSON.parse(raw);
+        if (p.wordsProgress) {
+            appData.wordsProgress.currentPage = p.wordsProgress.currentPage || 1;
+            appData.wordsProgress.completedItems = new Set(p.wordsProgress.completedItems || []);
+        }
+        if (p.sentencesProgress) {
+            appData.sentencesProgress.currentPage = p.sentencesProgress.currentPage || 1;
+            appData.sentencesProgress.completedItems = new Set(p.sentencesProgress.completedItems || []);
+        }
+    } catch (e) {
+        console.warn('تعذر تحميل التقدّم المحفوظ:', e);
+    }
+}
+
+function saveProgress() {
+    const p = {
+        wordsProgress: {
+            currentPage: appData.wordsProgress.currentPage,
+            completedItems: Array.from(appData.wordsProgress.completedItems)
+        },
+        sentencesProgress: {
+            currentPage: appData.sentencesProgress.currentPage,
+            completedItems: Array.from(appData.sentencesProgress.completedItems)
+        }
+    };
+    localStorage.setItem(`germanLearningAppProgress_${PAGE_ID}`, JSON.stringify(p));
+}
+
+/* -------------------------
+   مساعد: خلط مصفوفة
+   ------------------------- */
+function shuffleArray(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+/* -------------------------
+   خلط الترجمة مع ضمان ألا تكون مقابلة في نفس الصف
+   ------------------------- */
+function shuffleAvoidMatches(germanItems, translations) {
+    let shuffled = shuffleArray(translations);
+    const maxTries = 50;
+    let tries = 0;
+    while (tries < maxTries) {
+        let bad = false;
+        for (let i = 0; i < germanItems.length; i++) {
+            if (germanItems[i].translation === shuffled[i]) {
+                bad = true;
+                break;
+            }
+        }
+        if (!bad) return shuffled;
+        shuffled = shuffleArray(shuffled);
+        tries++;
+    }
+    if (germanItems.length > 1) {
+        shuffled = shuffled.slice(1).concat(shuffled[0]);
+    }
+    return shuffled;
+}
+
+/* -------------------------
+   رندر التحدي - قسم الكلمات
+   ------------------------- */
+function renderWordsChallenge() {
+    const progress = appData.wordsProgress;
+    const data = appData.words;
+    if (!data || data.length === 0) {
+        elements.wordsChallenge.innerHTML = '<div style="padding:14px;text-align:center;">لا توجد كلمات بعد.</div>';
+        return;
+    }
+
+    const totalPages = Math.ceil(data.length / progress.itemsPerPage);
+    if (progress.currentPage > totalPages) progress.currentPage = totalPages;
+
+    const startIndex = (progress.currentPage - 1) * progress.itemsPerPage;
+    const endIndex = Math.min(startIndex + progress.itemsPerPage, data.length);
+    const currentItems = data.slice(startIndex, endIndex);
+
+    appData.currentDisplayedGerman = currentItems;
+
+    const originalTranslations = currentItems.map(x => x.translation);
+    const translationsShuffled = shuffleAvoidMatches(currentItems, originalTranslations);
+
+    let html = `<div class="words-grid">`;
+
+    html += `<div class="words-column" aria-label="كلمات ألمانية">`;
+    for (let i = 0; i < currentItems.length; i++) {
+        const w = currentItems[i];
+        html += `<button class="word-btn german-word" data-pos="${i}" data-global-index="${startIndex + i}" onclick="onGermanClick(event)">${escapeHtml(w.german)}</button>`;
+    }
+    for (let k = currentItems.length; k < progress.itemsPerPage; k++) {
+        html += `<div style="min-height:75px;"></div>`;
+    }
+    html += `</div>`;
+
+    html += `<div class="words-column" aria-label="ترجمات">`;
+    for (let i = 0; i < translationsShuffled.length; i++) {
+        const t = translationsShuffled[i];
+        html += `<button class="word-btn translation-word" data-pos="${i}" onclick="onTranslationClick(event)">${escapeHtml(t)}</button>`;
+    }
+    for (let k = translationsShuffled.length; k < progress.itemsPerPage; k++) {
+        html += `<div style="min-height:75px;"></div>`;
+    }
+    html += `</div>`;
+
+    html += `</div>`;
+
+    elements.wordsChallenge.innerHTML = html;
+
+    elements.wordsPageNumber.textContent = progress.currentPage;
+    updateWordsStats();
+    updateWordsProgressBar();
+    elements.wordsCompletionMessage.classList.add('hidden');
+}
+
+/* -------------------------
+   رندر التحدي - قسم الجمل
+   ------------------------- */
+function renderSentencesChallenge() {
+    const progress = appData.sentencesProgress;
+    const data = appData.sentences;
+    if (!data || data.length === 0) {
+        elements.sentencesChallenge.innerHTML = '<div style="padding:14px;text-align:center;">لا توجد جمل بعد.</div>';
+        return;
+    }
+
+    const totalPages = Math.ceil(data.length / progress.itemsPerPage);
+    if (progress.currentPage > totalPages) progress.currentPage = totalPages;
+
+    const startIndex = (progress.currentPage - 1) * progress.itemsPerPage;
+    const endIndex = Math.min(startIndex + progress.itemsPerPage, data.length);
+    const currentItems = data.slice(startIndex, endIndex);
+
+    appData.currentDisplayedSentences = currentItems;
+
+    const originalTranslations = currentItems.map(x => x.translation);
+    const translationsShuffled = shuffleAvoidMatches(currentItems, originalTranslations);
+
+    let html = `<div class="sentences-vertical">`;
+
+    html += `<div class="german-sentences-section">`;
+    html += `<div class="section-label">الجمل الألمانية</div>`;
+    for (let i = 0; i < currentItems.length; i++) {
+        const s = currentItems[i];
+        html += `<button class="sentence-btn german-sentence" data-pos="${i}" data-global-index="${startIndex + i}" onclick="onGermanSentenceClick(event)">${escapeHtml(s.german)}</button>`;
+    }
+    for (let k = currentItems.length; k < progress.itemsPerPage; k++) {
+        html += `<div style="min-height:70px;"></div>`;
+    }
+    html += `</div>`;
+
+    html += `<div class="translation-sentences-section">`;
+    html += `<div class="section-label">الترجمات</div>`;
+    for (let i = 0; i < translationsShuffled.length; i++) {
+        const t = translationsShuffled[i];
+        html += `<button class="sentence-btn translation-sentence" data-pos="${i}" onclick="onTranslationSentenceClick(event)">${escapeHtml(t)}</button>`;
+    }
+    for (let k = translationsShuffled.length; k < progress.itemsPerPage; k++) {
+        html += `<div style="min-height:70px;"></div>`;
+    }
+    html += `</div>`;
+
+    html += `</div>`;
+
+    elements.sentencesChallenge.innerHTML = html;
+
+    elements.sentencesPageNumber.textContent = progress.currentPage;
+    updateSentencesStats();
+    updateSentencesProgressBar();
+    elements.sentencesCompletionMessage.classList.add('hidden');
+}
+
+/* -------------------------
+   هاندلات النقر - قسم الكلمات
+   ------------------------- */
+function onGermanClick(e) {
+    document.querySelectorAll('.german-word').forEach(b => b.classList.remove('selected'));
+    const btn = e.currentTarget;
+    btn.classList.add('selected');
+
+    const pos = Number(btn.dataset.pos);
+    const globalIndex = Number(btn.dataset.globalIndex);
+    appData.selectedGermanObj = {
+        pos,
+        globalIndex,
+        german: appData.currentDisplayedGerman[pos].german,
+        translation: appData.currentDisplayedGerman[pos].translation
+    };
+
+    speakGermanText(appData.currentDisplayedGerman[pos].german);
+
+    if (appData.selectedTranslationText !== null) checkWordsMatch();
+}
+
+function onTranslationClick(e) {
+    document.querySelectorAll('.translation-word').forEach(b => b.classList.remove('selected'));
+    const btn = e.currentTarget;
+    btn.classList.add('selected');
+    appData.selectedTranslationText = btn.textContent;
+
+    if (appData.selectedGermanObj !== null) checkWordsMatch();
+}
+
+/* -------------------------
+   هاندلات النقر - قسم الجمل
+   ------------------------- */
+function onGermanSentenceClick(e) {
+    document.querySelectorAll('.german-sentence').forEach(b => b.classList.remove('selected'));
+    const btn = e.currentTarget;
+    btn.classList.add('selected');
+
+    const pos = Number(btn.dataset.pos);
+    const globalIndex = Number(btn.dataset.globalIndex);
+    appData.selectedGermanSentence = {
+        pos,
+        globalIndex,
+        german: appData.currentDisplayedSentences[pos].german,
+        translation: appData.currentDisplayedSentences[pos].translation
+    };
+
+    speakGermanText(appData.currentDisplayedSentences[pos].german);
+
+    if (appData.selectedTranslationSentence !== null) checkSentencesMatch();
+}
+
+function onTranslationSentenceClick(e) {
+    document.querySelectorAll('.translation-sentence').forEach(b => b.classList.remove('selected'));
+    const btn = e.currentTarget;
+    btn.classList.add('selected');
+    appData.selectedTranslationSentence = btn.textContent;
+
+    if (appData.selectedGermanSentence !== null) checkSentencesMatch();
+}
+
+/* -------------------------
+   التحقق من المطابقة (قسم الكلمات)
+   ------------------------- */
+function checkWordsMatch() {
+    const germanObj = appData.selectedGermanObj;
+    const translationText = appData.selectedTranslationText;
+
+    const germanBtn = document.querySelector(`.german-word[data-pos="${germanObj.pos}"]`);
+    const translationBtns = Array.from(document.querySelectorAll('.translation-word'));
+    const translationBtn = translationBtns.find(b => b.textContent === translationText);
+
+    if (!germanBtn || !translationBtn) {
+        clearSelectionTemp();
+        return;
+    }
+
+    const isCorrect = (germanObj.translation === translationText);
+
+    if (isCorrect) {
+        germanBtn.classList.remove('selected');
+        translationBtn.classList.remove('selected');
+        germanBtn.classList.add('correct');
+        translationBtn.classList.add('correct');
+
+        appData.wordsProgress.completedItems.add(String(germanObj.globalIndex));
+        saveProgress();
+        elements.correctSound.currentTime = 0;
+        elements.correctSound.play();
+
+        setTimeout(() => {
+            clearSelectionTemp();
+            const allGermanBtns = document.querySelectorAll('.german-word');
+            const allCorrect = Array.from(allGermanBtns).every(b => b.classList.contains('correct'));
+            if (allCorrect) {
+                const totalPages = Math.ceil(appData.words.length / appData.wordsProgress.itemsPerPage);
+                if (appData.wordsProgress.currentPage < totalPages) {
+                    appData.wordsProgress.currentPage++;
+                } else {
+                    if (appData.wordsProgress.completedItems.size >= appData.words.length) {
+                        elements.wordsChallenge.innerHTML = '';
+                        elements.wordsCompletionMessage.classList.remove('hidden');
+                    }
+                }
+                saveProgress();
+                renderWordsChallenge();
+            }
+        }, 700);
+
+    } else {
+        germanBtn.classList.remove('selected');
+        translationBtn.classList.remove('selected');
+        germanBtn.classList.add('incorrect');
+        translationBtn.classList.add('incorrect');
+        elements.incorrectSound.currentTime = 0;
+        elements.incorrectSound.play();
+
+        setTimeout(() => {
+            germanBtn.classList.remove('incorrect');
+            translationBtn.classList.remove('incorrect');
+            clearSelectionTemp();
+        }, 800);
+    }
+}
+
+/* -------------------------
+   التحقق من المطابقة (قسم الجمل)
+   ------------------------- */
+function checkSentencesMatch() {
+    const germanSentence = appData.selectedGermanSentence;
+    const translationText = appData.selectedTranslationSentence;
+
+    const germanBtn = document.querySelector(`.german-sentence[data-pos="${germanSentence.pos}"]`);
+    const translationBtns = Array.from(document.querySelectorAll('.translation-sentence'));
+    const translationBtn = translationBtns.find(b => b.textContent === translationText);
+
+    if (!germanBtn || !translationBtn) {
+        clearSelectionTempSentences();
+        return;
+    }
+
+    const isCorrect = (germanSentence.translation === translationText);
+
+    if (isCorrect) {
+        germanBtn.classList.remove('selected');
+        translationBtn.classList.remove('selected');
+        germanBtn.classList.add('correct');
+        translationBtn.classList.add('correct');
+
+        appData.sentencesProgress.completedItems.add(String(germanSentence.globalIndex));
+        saveProgress();
+        elements.correctSound.currentTime = 0;
+        elements.correctSound.play();
+
+        setTimeout(() => {
+            clearSelectionTempSentences();
+            const allGermanBtns = document.querySelectorAll('.german-sentence');
+            const allCorrect = Array.from(allGermanBtns).every(b => b.classList.contains('correct'));
+            if (allCorrect) {
+                const totalPages = Math.ceil(appData.sentences.length / appData.sentencesProgress.itemsPerPage);
+                if (appData.sentencesProgress.currentPage < totalPages) {
+                    appData.sentencesProgress.currentPage++;
+                } else {
+                    if (appData.sentencesProgress.completedItems.size >= appData.sentences.length) {
+                        elements.sentencesChallenge.innerHTML = '';
+                        elements.sentencesCompletionMessage.classList.remove('hidden');
+                    }
+                }
+                saveProgress();
+                renderSentencesChallenge();
+            }
+        }, 700);
+
+    } else {
+        germanBtn.classList.remove('selected');
+        translationBtn.classList.remove('selected');
+        germanBtn.classList.add('incorrect');
+        translationBtn.classList.add('incorrect');
+        elements.incorrectSound.currentTime = 0;
+        elements.incorrectSound.play();
+
+        setTimeout(() => {
+            germanBtn.classList.remove('incorrect');
+            translationBtn.classList.remove('incorrect');
+            clearSelectionTempSentences();
+        }, 800);
+    }
+}
+
+/* -------------------------
+   مساعدة لمسح الاختيارات المؤقتة
+   ------------------------- */
+function clearSelectionTemp() {
+    appData.selectedGermanObj = null;
+    appData.selectedTranslationText = null;
+    document.querySelectorAll('.german-word').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('.translation-word').forEach(b => b.classList.remove('selected'));
+}
+
+function clearSelectionTempSentences() {
+    appData.selectedGermanSentence = null;
+    appData.selectedTranslationSentence = null;
+    document.querySelectorAll('.german-sentence').forEach(b => b.classList.remove('selected'));
+    document.querySelectorAll('.translation-sentence').forEach(b => b.classList.remove('selected'));
+}
+
+/* -------------------------
+   تحديث الإحصائيات وشريط التقدم
+   ------------------------- */
+function updateWordsStats() {
+    const total = appData.words.length;
+    const completed = appData.wordsProgress.completedItems.size;
+    const remaining = Math.max(0, total - completed);
+    elements.wordsTotalCount.textContent = total;
+    elements.wordsCompletedCount.textContent = completed;
+    elements.wordsRemainingCount.textContent = remaining;
+}
+
+function updateWordsProgressBar() {
+    const total = appData.words.length || 1;
+    const completed = appData.wordsProgress.completedItems.size;
+    const percent = Math.round((completed / total) * 100);
+    elements.wordsProgressBar.style.width = percent + '%';
+    elements.wordsProgressPercent.textContent = percent + '%';
+}
+
+function updateSentencesStats() {
+    const total = appData.sentences.length;
+    const completed = appData.sentencesProgress.completedItems.size;
+    const remaining = Math.max(0, total - completed);
+    elements.sentencesTotalCount.textContent = total;
+    elements.sentencesCompletedCount.textContent = completed;
+    elements.sentencesRemainingCount.textContent = remaining;
+}
+
+function updateSentencesProgressBar() {
+    const total = appData.sentences.length || 1;
+    const completed = appData.sentencesProgress.completedItems.size;
+    const percent = Math.round((completed / total) * 100);
+    elements.sentencesProgressBar.style.width = percent + '%';
+    elements.sentencesProgressPercent.textContent = percent + '%';
+}
+
+/* -------------------------
+   التنقّل وأزرار الواجهة
+   ------------------------- */
+function updateWordsNavButtons() {
+    const p = appData.wordsProgress;
+    const totalPages = Math.max(1, Math.ceil(appData.words.length / p.itemsPerPage));
+    document.getElementById('words-prev-btn').disabled = (p.currentPage <= 1);
+    document.getElementById('words-next-btn').disabled = (p.currentPage >= totalPages);
+}
+
+function updateSentencesNavButtons() {
+    const p = appData.sentencesProgress;
+    const totalPages = Math.max(1, Math.ceil(appData.sentences.length / p.itemsPerPage));
+    document.getElementById('sentences-prev-btn').disabled = (p.currentPage <= 1);
+    document.getElementById('sentences-next-btn').disabled = (p.currentPage >= totalPages);
+}
+
+/* -------------------------
+   مساعدة: تأمين نص HTML
+   ------------------------- */
+function escapeHtml(unsafe) {
+    if (unsafe === null || unsafe === undefined) return '';
+    return String(unsafe)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+/* -------------------------
+   إظهار وإخفاء الصفحات
+   ------------------------- */
+function showHomePage() {
+    elements.homePage.classList.remove('hidden');
+    elements.wordsContainer.classList.add('hidden');
+    elements.sentencesContainer.classList.add('hidden');
+}
+
+function showWordsSection() {
+    elements.homePage.classList.add('hidden');
+    elements.wordsContainer.classList.remove('hidden');
+    elements.sentencesContainer.classList.add('hidden');
+    appData.currentSection = 'words';
+    renderWordsChallenge();
+    updateWordsNavButtons();
+}
+
+function showSentencesSection() {
+    elements.homePage.classList.add('hidden');
+    elements.wordsContainer.classList.add('hidden');
+    elements.sentencesContainer.classList.remove('hidden');
+    appData.currentSection = 'sentences';
+    renderSentencesChallenge();
+    updateSentencesNavButtons();
+}
+
+/* -------------------------
+   وظيفة زر الصفحة الرئيسية
+   ------------------------- */
+function goToHomePage() {
+    showHomePage();
+}
+
+/* -------------------------
+   أحداث الأزرار وتهيئة الواجهة
+   ------------------------- */
+function setupEventListeners() {
+    elements.wordsSectionCard.addEventListener('click', showWordsSection);
+    elements.sentencesSectionCard.addEventListener('click', showSentencesSection);
+
+    elements.wordsBackBtn.addEventListener('click', showHomePage);
+    elements.sentencesBackBtn.addEventListener('click', showHomePage);
+
+    elements.wordsPrevBtn.addEventListener('click', () => {
+        if (appData.wordsProgress.currentPage > 1) {
+            appData.wordsProgress.currentPage--;
+            saveProgress();
+            renderWordsChallenge();
+            updateWordsNavButtons();
+        }
+    });
+
+    elements.wordsNextBtn.addEventListener('click', () => {
+        const totalPages = Math.max(1, Math.ceil(appData.words.length / appData.wordsProgress.itemsPerPage));
+        if (appData.wordsProgress.currentPage < totalPages) {
+            appData.wordsProgress.currentPage++;
+            saveProgress();
+            renderWordsChallenge();
+            updateWordsNavButtons();
+        }
+    });
+
+    elements.wordsResetBtn.addEventListener('click', () => {
+        const ok = confirm('هل تريد إعادة التحدّي لمسح التقدّم في قسم الكلمات؟');
+        if (ok) {
+            appData.wordsProgress.currentPage = 1;
+            appData.wordsProgress.completedItems.clear();
+            saveProgress();
+            renderWordsChallenge();
+            updateWordsNavButtons();
+        }
+    });
+
+    elements.sentencesPrevBtn.addEventListener('click', () => {
+        if (appData.sentencesProgress.currentPage > 1) {
+            appData.sentencesProgress.currentPage--;
+            saveProgress();
+            renderSentencesChallenge();
+            updateSentencesNavButtons();
+        }
+    });
+
+    elements.sentencesNextBtn.addEventListener('click', () => {
+        const totalPages = Math.max(1, Math.ceil(appData.sentences.length / appData.sentencesProgress.itemsPerPage));
+        if (appData.sentencesProgress.currentPage < totalPages) {
+            appData.sentencesProgress.currentPage++;
+            saveProgress();
+            renderSentencesChallenge();
+            updateSentencesNavButtons();
+        }
+    });
+
+    elements.sentencesResetBtn.addEventListener('click', () => {
+        const ok = confirm('هل تريد إعادة التحدّي لمسح التقدّم في قسم الجمل؟');
+        if (ok) {
+            appData.sentencesProgress.currentPage = 1;
+            appData.sentencesProgress.completedItems.clear();
+            saveProgress();
+            renderSentencesChallenge();
+            updateSentencesNavButtons();
+        }
+    });
+
+    document.addEventListener('click', () => {
+        updateWordsNavButtons();
+        updateSentencesNavButtons();
+    });
+}
+
+/* -------------------------
+   تهيئة التطبيق وتشغيله
+   ------------------------- */
+async function initApp() {
+    try {
+        await loadData();
+        loadProgress();
+        setupEventListeners();
+
+        if (elements.loadingMessage) elements.loadingMessage.classList.add('hidden');
+
+        showHomePage();
+
+        if ('speechSynthesis' in window) {
+            speechSynthesis.getVoices();
+        }
+
+        console.log('الصفحة المستقلة جاهزة.');
+    } catch (err) {
+        console.error('خطأ أثناء التهيئة:', err);
+    }
+}
+
+/* -------------------------
+   بدء عند تحميل DOM
+   ------------------------- */
+document.addEventListener('DOMContentLoaded', initApp);
+</script>
